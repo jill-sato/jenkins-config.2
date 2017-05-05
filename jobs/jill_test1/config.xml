@@ -54,7 +54,8 @@ echo &quot;test scm sync plugin&quot;
 echo &quot;line 2&quot;
 echo &quot;line 3&quot;
 echo &quot;line 4&quot;
-echo &quot;line 5&quot;</command>
+echo &quot;line 5&quot;
+echo &quot;line 6&quot;</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
