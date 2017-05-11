@@ -12,6 +12,11 @@
           <description></description>
           <defaultValue>xxx</defaultValue>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>additional_param</name>
+          <description></description>
+          <defaultValue>add</defaultValue>
+        </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
@@ -43,7 +48,8 @@
       <command>#!/bin/bash
 
 
-echo &quot;tag is $tag&quot;</command>
+echo &quot;tag is $tag&quot;
+echo &quot;additional_param is $additional_param&quot;</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
