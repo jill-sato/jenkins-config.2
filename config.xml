@@ -22,6 +22,11 @@
       <home>/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home</home>
       <properties/>
     </jdk>
+    <jdk>
+      <name>jdk1.8.0_131-bis</name>
+      <home>/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home</home>
+      <properties/>
+    </jdk>
   </jdks>
   <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
   <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
