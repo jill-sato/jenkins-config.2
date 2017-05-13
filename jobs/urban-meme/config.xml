@@ -115,10 +115,8 @@
         </deployReleaseRepository>
         <stagingPlugin>
           <pluginName>None</pluginName>
-          <paramMap/>
         </stagingPlugin>
         <userPluginKey>None</userPluginKey>
-        <userPluginParams></userPluginParams>
       </details>
       <deployArtifacts>true</deployArtifacts>
       <envVarsPatterns>
