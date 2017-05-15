@@ -60,7 +60,9 @@
       <command>#!/bin/bash 
 
 echo &quot;$JOB_NAME: tag is $tag&quot;
-echo &quot;DO_INTEL is $DO_INTEL&quot;
+if [ $DO_INTEL = true ]; then
+  echo &quot;DO_INTEL is $DO_INTEL
+fi
 echo &quot;line 2&quot;
 echo &quot;line 3&quot;
 echo &quot;line 4&quot;
