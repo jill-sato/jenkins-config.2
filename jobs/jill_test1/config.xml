@@ -28,6 +28,11 @@
           <description></description>
           <defaultValue>1.2.0-test</defaultValue>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>DO_INTEL</name>
+          <description></description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
@@ -36,6 +41,7 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <jdk>(System)</jdk>
   <triggers>
     <jenkins.triggers.ReverseBuildTrigger>
       <spec></spec>
@@ -54,6 +60,7 @@
       <command>#!/bin/bash 
 
 echo &quot;$JOB_NAME: tag is $tag&quot;
+ecgi &quot;DO_INTEL is $DO_INTEL&quot;
 echo &quot;line 2&quot;
 echo &quot;line 3&quot;
 echo &quot;line 4&quot;
