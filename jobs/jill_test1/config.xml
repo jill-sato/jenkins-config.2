@@ -60,7 +60,7 @@
       <command>#!/bin/bash 
 
 echo &quot;$JOB_NAME: tag is $tag&quot;
-ecgi &quot;DO_INTEL is $DO_INTEL&quot;
+ecgo &quot;DO_INTEL is $DO_INTEL&quot;
 echo &quot;line 2&quot;
 echo &quot;line 3&quot;
 echo &quot;line 4&quot;
