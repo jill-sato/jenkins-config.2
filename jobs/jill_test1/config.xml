@@ -61,7 +61,7 @@
 
 echo &quot;$JOB_NAME: tag is $tag&quot;
 if [ $DO_INTEL = true ]; then
-  echo &quot;DO_INTEL is $DO_INTEL
+  echo &quot;DO_INTEL is $DO_INTEL&quot;
 fi
 echo &quot;line 2&quot;
 echo &quot;line 3&quot;
